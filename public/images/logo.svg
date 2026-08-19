@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 341" fill="none" role="img" aria-label="Black Lion Luis Rondón">
+  <rect width="1024" height="341" fill="#0A0A0A"/>
+  <g fill="#C9A227" transform="translate(48 58)">
+    <path d="M112 28c-6-18-18-28-34-28-10 0-19 4-26 11C45 4 36 0 26 0 10 0-2 10-8 28c-8 4-16 12-20 22 8 6 18 10 30 10 2 14 10 26 22 34-2 8-2 16 2 24 10-6 22-8 34-8s24 2 34 8c4-8 4-16 2-24 12-8 20-20 22-34 12 0 22-4 30-10-4-10-12-18-20-22Zm-60 86c-18 0-32-10-40-26 14-4 28-4 40-4s26 0 40 4c-8 16-22 26-40 26Z"/>
+  </g>
+  <text x="300" y="168" fill="#C9A227" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" letter-spacing="6">BLACK LION</text>
+  <text x="300" y="228" fill="#E8C547" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" letter-spacing="14">LUIS RONDÓN</text>
+</svg>

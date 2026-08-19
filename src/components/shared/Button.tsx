@@ -1,0 +1,62 @@
+import Link from "next/link";
+import type { ReactNode } from "react";
+
+type ButtonProps = {
+  href?: string;
+  children: ReactNode;
+  variant?: "primary" | "outline" | "gold";
+  className?: string;
+  type?: "button" | "submit";
+  onClick?: () => void;
+};
+
+const base =
+  "inline-flex items-center justify-center rounded-[var(--btn-radius)] px-8 py-3 text-sm font-semibold uppercase tracking-wide transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary font-[family-name:var(--font-body)]";
+
+const variants = {
+  primary:
+    "border-2 border-gold bg-primary text-white hover:bg-gold hover:text-primary",
+  outline:
+    "border-2 border-gold bg-transparent text-primary hover:bg-gold hover:text-primary",
+  gold: "border-2 border-gold bg-gold text-primary hover:bg-primary hover:border-gold hover:text-gold",
+};
+
+export function Button({
+  href,
+  children,
+  variant = "primary",
+  className = "",
+  type = "button",
+  onClick,
+}: ButtonProps) {
+  const classes = `${base} ${variants[variant]} ${className}`;
+
+  if (href) {
+    const isExternal = href.startsWith("http://") || href.startsWith("https://");
+
+    if (isExternal) {
+      return (
+        <a
+          href={href}
+          className={classes}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {children}
+        </a>
+      );
+    }
+
+    return (
+      <Link href={href} className={classes}>
+        {children}
+      </Link>
+    );
+  }
+
+  return (
+    <button type={type} className={classes} onClick={onClick}>
+      {children}
+    </button>
+  );
+}
