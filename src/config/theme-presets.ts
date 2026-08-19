@@ -158,9 +158,9 @@ export const themePresets = {
 
   ecbrandgroup: {
     id: "ecbrandgroup",
-    label: "EC Brand Group",
+    label: "Legacy navy",
     description:
-      "Navy profundo con acentos plateados — paleta premium del logo EC Brand Group",
+      "Navy profundo con acentos plateados — paleta legacy",
     colors: {
       gold: "#B8C4D4",
       primaryBright: "#D8DEE8",

@@ -182,7 +182,7 @@ export const marketingHomeContent = {
   about: {
     title: "About us",
     paragraphs: [
-      "EC Brand Group LLC is a boutique marketing agency built for small businesses that want a more professional online presence without the complexity of a large agency.",
+      "Black Lion is a boutique marketing agency built for small businesses that want a more professional online presence without the complexity of a large agency.",
       "We help clients establish credibility, strengthen brand identity, and improve customer engagement through branding, marketing consulting, content creation, website development, and digital growth strategies.",
     ],
   },
@@ -291,7 +291,7 @@ export const marketingHomeContent = {
       {
         id: "t1",
         quote:
-          "EC Brand Group helped us look more professional online. Our social profiles finally match the quality of our business, and customers notice the difference.",
+          "Black Lion helped us look more professional online. Our social profiles finally match the quality of our business, and customers notice the difference.",
         name: "Maria L.",
         role: "Small Business Owner",
       },

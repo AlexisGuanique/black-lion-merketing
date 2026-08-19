@@ -144,7 +144,7 @@ export const homeContent = {
   },
   customerSuccess: {
     title: "Built to establish trust with potential clients.",
-    body: "Our website and service packages are designed to present EC Brand Group as a legitimate, professional marketing business with clear offerings, secure checkout, and transparent policies.",
+    body: "Our website and service packages are designed to present Black Lion as a legitimate, professional marketing business with clear offerings, secure checkout, and transparent policies.",
   },
   faqTitle: "FREQUENTLY ASKED QUESTIONS",
   faq: [
@@ -180,7 +180,7 @@ export type AboutStatCircle = { image: string; alt: string };
 export const aboutContent = {
   intro: {
     tagline: {
-      brand: "EC Brand Group",
+      brand: "Black Lion",
       rest: "...marketing for small businesses",
     },
     stats: [
@@ -204,9 +204,9 @@ export const aboutContent = {
   },
   story: {
     logo: "/images/logo.jpg",
-    logoAlt: "EC Brand Group LLC logo",
+    logoAlt: "Black Lion logo",
     items: [
-      "EC Brand Group LLC was founded to help small businesses improve their online presence with professional marketing services that are clear, credible, and accessible.",
+      "Black Lion was founded to help small businesses improve their online presence with professional marketing services that are clear, credible, and accessible.",
       "Our focus is branding, consulting, content creation, website development, and digital growth strategies that strengthen trust with potential clients.",
       "Who we serve: small businesses and entrepreneurs that want to establish credibility, improve engagement, and grow online with confidence.",
     ],

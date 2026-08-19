@@ -5,10 +5,10 @@ import type { Locale } from "@/lib/locales";
  * Edita este archivo con los datos de la empresa cliente.
  */
 export const siteConfig = {
-  brand: "EC Brand Group LLC",
+  brand: "Black Lion",
   tagline: "Boutique Marketing for Small Business Growth",
   description:
-    "EC Brand Group LLC is a boutique marketing agency focused on helping small businesses improve their online presence through branding, marketing consulting, content creation, website development, and digital growth strategies.",
+    "Black Lion is a boutique marketing agency focused on helping small businesses improve their online presence through branding, marketing consulting, content creation, website development, and digital growth strategies.",
 
   email: "thelionsbss@gmail.com",
   supportEmail: "thelionsbss@gmail.com",
@@ -26,11 +26,11 @@ export const siteConfig = {
   disclaimer:
     "Information on this website is for general purposes only. It does not constitute legal, financial, or professional advice.",
 
-  copyright: "Copyright © 2026 EC Brand Group LLC. All rights reserved.",
+  copyright: "Copyright © 2026 Black Lion. All rights reserved.",
 
   credit: {
-    label: "Developed by EC Brand Group",
-    href: "https://ecbrandgroup.com",
+    label: "Developed by Black Lion",
+    href: "",
     show: false,
   },
 

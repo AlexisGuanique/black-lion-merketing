@@ -262,7 +262,7 @@ export const pricingContent = {
   faqTitle: "FREQUENTLY ASKED QUESTIONS",
   faq: [
     {
-      question: "What services does EC Brand Group offer?",
+      question: "What services does Black Lion offer?",
       answer:
         "We offer branding, marketing consulting, content creation, website development, social media management, and digital growth strategies for small businesses.",
     },

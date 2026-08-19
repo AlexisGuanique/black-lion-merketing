@@ -22,6 +22,18 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.brand}`,
   },
   description: siteConfig.description,
+  applicationName: siteConfig.brand,
+  openGraph: {
+    type: "website",
+    siteName: siteConfig.brand,
+    title: `${siteConfig.brand} | ${siteConfig.tagline}`,
+    description: siteConfig.description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${siteConfig.brand} | ${siteConfig.tagline}`,
+    description: siteConfig.description,
+  },
 };
 
 export const viewport: Viewport = {

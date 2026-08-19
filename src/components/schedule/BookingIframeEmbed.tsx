@@ -22,7 +22,7 @@ export function BookingIframeEmbed({ src }: BookingIframeEmbedProps) {
   return (
     <iframe
       src={src}
-      title="Schedule a call with E Point Lab"
+      title="Schedule a call with Black Lion"
       className="schedule-calendly__iframe"
       scrolling="no"
     />
