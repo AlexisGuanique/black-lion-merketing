@@ -13,7 +13,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const publicImages = path.join(root, "public", "images");
 
-/** Black Lion — ilustraciones negro / oro sobre --illus-surface (#F3EBD8) */
+/** Lion Business — ilustraciones negro / oro sobre --illus-surface (#F3EBD8) */
 const BRAND = {
   gold: "#C9A227",
   illustrationAccent: "#A6862A",
@@ -181,7 +181,7 @@ async function main() {
     }
   }
 
-  console.log("\nBlack Lion palette applied:");
+  console.log("\nLion Business palette applied:");
   console.log(`  accent: ${BRAND.illustrationAccent} | black: ${BRAND.primaryDark} | gold: ${BRAND.gold}`);
   console.log(`Done: ${ok} saved, ${fail} failed.`);
 }

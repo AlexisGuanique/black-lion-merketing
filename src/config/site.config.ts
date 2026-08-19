@@ -5,10 +5,10 @@ import type { Locale } from "@/lib/locales";
  * Edita este archivo con los datos de la empresa cliente.
  */
 export const siteConfig = {
-  brand: "Black Lion",
+  brand: "Lion Business",
   tagline: "Boutique Marketing for Small Business Growth",
   description:
-    "Black Lion is a boutique marketing agency focused on helping small businesses improve their online presence through branding, marketing consulting, content creation, website development, and digital growth strategies.",
+    "Lion Business is a boutique marketing agency focused on helping small businesses improve their online presence through branding, marketing consulting, content creation, website development, and digital growth strategies.",
 
   email: "thelionsbss@gmail.com",
   supportEmail: "thelionsbss@gmail.com",
@@ -26,10 +26,10 @@ export const siteConfig = {
   disclaimer:
     "Information on this website is for general purposes only. It does not constitute legal, financial, or professional advice.",
 
-  copyright: "Copyright © 2026 Black Lion. All rights reserved.",
+  copyright: "Copyright © 2026 Lion Business. All rights reserved.",
 
   credit: {
-    label: "Developed by Black Lion",
+    label: "Developed by Lion Business",
     href: "",
     show: false,
   },

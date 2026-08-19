@@ -179,9 +179,9 @@ export const themePresets = {
 
   "black-lion": {
     id: "black-lion",
-    label: "Black Lion",
+    label: "Lion Business",
     description:
-      "Negro profundo con oro antiguo — paleta de lujo Black Lion Luis Rondón",
+      "Negro profundo con oro antiguo — paleta de lujo Lion Business Luis Rondón",
     colors: {
       gold: "#C9A227",
       primaryBright: "#E8C547",
