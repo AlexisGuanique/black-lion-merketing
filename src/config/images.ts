@@ -7,7 +7,7 @@
  * Regenerar: npm run images:undraw
  */
 export const siteImages = {
-  logo: "/images/logo.jpg",
+  logo: "/images/logo-mark.png",
 
   hero: {
     slide1: "/images/hero/slide-1.svg",

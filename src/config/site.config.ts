@@ -55,9 +55,10 @@ export const siteConfig = {
     process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "13213144332",
 
   logo: {
-    src: "/images/logo.jpg",
-    width: 1024,
-    height: 341,
+    src: "/images/logo-mark.png",
+    width: 429,
+    height: 435,
+    wordmark: "Lion Business",
   },
 
   social: {

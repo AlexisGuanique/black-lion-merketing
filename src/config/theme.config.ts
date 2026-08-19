@@ -16,7 +16,7 @@ export const themeColors = preset.colors;
 
 export const themeFonts = {
   body: "Plus Jakarta Sans",
-  heading: "Instrument Serif",
+  heading: "Merriweather",
   accent: "Plus Jakarta Sans",
 } as const;
 

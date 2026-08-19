@@ -203,8 +203,8 @@ export const aboutContent = {
     ] satisfies AboutStatCircle[],
   },
   story: {
-    logo: "/images/logo.jpg",
-    logoAlt: "Black Lion logo",
+    logo: "/images/logo-mark.png",
+    logoAlt: "Lion Business logo",
     items: [
       "Black Lion was founded to help small businesses improve their online presence with professional marketing services that are clear, credible, and accessible.",
       "Our focus is branding, consulting, content creation, website development, and digital growth strategies that strengthen trust with potential clients.",

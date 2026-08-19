@@ -28,7 +28,7 @@ export const colors = {
 
 export const fonts = {
   body: 'var(--font-body), "Plus Jakarta Sans", sans-serif',
-  heading: 'var(--font-heading), "Instrument Serif", Georgia, serif',
+  heading: 'var(--font-heading), "Merriweather", Georgia, serif',
   accent: 'var(--font-body), "Plus Jakarta Sans", sans-serif',
 } as const;
 
